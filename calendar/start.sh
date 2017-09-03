@@ -7,3 +7,5 @@ for URL in $URLS
 do
 	wget $URL
 done
+
+/start.sh
