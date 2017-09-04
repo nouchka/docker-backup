@@ -5,7 +5,7 @@ cd /data/
 
 for URL in $URLS
 do
-	wget $URL
+	wget -r $URL
 done
 
 /start.sh
