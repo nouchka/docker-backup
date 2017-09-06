@@ -8,4 +8,4 @@ do
 	wget -r --auth-no-challenge --user=$USER --password=$PASSWORD $URL
 done
 
-/start.sh
+/backup.sh

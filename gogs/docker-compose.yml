@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  backup_gogs:
+    build: .
+    image: nouchka/backup:gogs
