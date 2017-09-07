@@ -5,7 +5,12 @@ cd /data/
 
 for URL in $URLS
 do
-	wget -r --auth-no-challenge --user=$USER --password=$PASSWORD $URL
+	wget -q -r -O ${URLS##*/} --auth-no-challenge --user=$USER --password=$PASSWORD $URL
+	if [ $? -ne 0 ]; then
+		>&2 echo "Fail to download $URL"
+	fi
 done
 
-/backup.sh
+ls -al /data/
+
+##/backup.sh
