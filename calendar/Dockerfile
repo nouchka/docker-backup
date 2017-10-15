@@ -9,4 +9,4 @@ ENV URLS     https://lite.qwant.com/images/lite-home-logo-variant.jpg https://fr
 ENV USER     user
 ENV PASSWORD password
 
-CMD /fetch.sh
+ENTRYPOINT /fetch.sh
