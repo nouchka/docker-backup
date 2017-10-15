@@ -13,4 +13,4 @@ done
 
 ls -al /data/
 
-##/backup.sh
+/backup.sh
