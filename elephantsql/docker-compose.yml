@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  backup_elephantsql:
+    build: .
+    image: nouchka/backup:elephantsql
