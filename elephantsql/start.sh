@@ -9,4 +9,4 @@ wget -qO- --user= --password=$DB_APIKEY https://api.elephantsql.com/api/backup?d
 
 cp $DB_NAME.$MONTH.sql.lzo $DB_USER.sql.lzo
 
-/backup.sh
+##/backup.sh
